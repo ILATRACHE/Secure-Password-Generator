@@ -27,7 +27,7 @@ A modern and secure password generator built with Python and Tkinter. This appli
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Secure-Password-Generator.git
+git clone https://github.com/ILATRACHE/Secure-Password-Generator.git
 ```
 
 2. Navigate to the project folder:
