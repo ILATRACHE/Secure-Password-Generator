@@ -41,5 +41,3 @@ cd Secure-Password-Generator
 ```bash
 python main.py
 ```
-
-Created by Ilias Latrache.
