@@ -6,7 +6,7 @@ import string
 
 def generate_password(length):
     try :
-        if length < 4 :
+        if length < 8 :
             raise ValueError
         lower =  string.ascii_lowercase 
         upper = string.ascii_uppercase 
@@ -24,6 +24,5 @@ def generate_password(length):
         secrets.SystemRandom().shuffle(password)
         return ''.join(password) 
     except ValueError :
-        error = f'"Minimum length is 4"'
-        return error
+        print('Minimum length is 8')
 
