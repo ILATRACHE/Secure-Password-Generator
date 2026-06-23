@@ -26,7 +26,9 @@ while True :
         elif choice == 2 :
             p = input("please entre your password to check : ")
             rate_password(p)
-            
+            choice = input("press e to exit : ")
+                if choice.lower() == "e" :
+                    break
         elif choice == 3 :
             print("goodBye")
             break
